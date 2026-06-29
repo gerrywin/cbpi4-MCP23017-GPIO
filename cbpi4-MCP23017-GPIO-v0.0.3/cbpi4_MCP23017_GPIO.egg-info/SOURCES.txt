@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+cbpi4_MCP23017_GPIO/__init__.py
+cbpi4_MCP23017_GPIO.egg-info/PKG-INFO
+cbpi4_MCP23017_GPIO.egg-info/SOURCES.txt
+cbpi4_MCP23017_GPIO.egg-info/dependency_links.txt
+cbpi4_MCP23017_GPIO.egg-info/requires.txt
+cbpi4_MCP23017_GPIO.egg-info/top_level.txt

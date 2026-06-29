@@ -1,0 +1,3 @@
+include README.md
+include LICENSE
+recursive-include cbpi4_MCP23017_GPIO *
