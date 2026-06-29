@@ -88,11 +88,11 @@ class MCP23017(CBPiExtension):
     async def MCP23017_Settings(self):
         try:
             plugin = await self.cbpi.plugin.load_plugin_list("cbpi4-MCP23017-GPIO")
-            self.version = plugin[0].get("Version", "0.0.3") if plugin else "0.0.3"
+            self.version = plugin[0].get("Version", "0.0.4") if plugin else "0.0.4"
             self.name = plugin[0].get("Name", "cbpi4-MCP23017-GPIO") if plugin else "cbpi4-MCP23017-GPIO"
         except Exception as e:
             logger.warning("Could not read MCP23017 plugin metadata: %s", e)
-            self.version = "0.0.3"
+            self.version = "0.0.4"
             self.name = "cbpi4-MCP23017-GPIO"
 
         update_key = self.name + "_update"

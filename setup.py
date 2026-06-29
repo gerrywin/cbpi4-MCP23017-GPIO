@@ -7,7 +7,7 @@ with open(path.join(this_directory, "README.md"), encoding="utf-8") as f:
 
 setup(
     name="cbpi4-MCP23017-GPIO",
-    version="0.0.3",
+    version="0.0.4",
     description="CraftBeerPi4 MCP23017 GPIO Actor Plugin",
     author="gerrywin",
     author_email="gerrywin@users.noreply.github.com",
