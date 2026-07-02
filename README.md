@@ -2,6 +2,8 @@
 
 CraftBeerPi 4 actor plugin for the MCP23017 I2C GPIO expander.
 
+Version 0.0.1
+
 Tested target: CraftBeerPi 4.7.x / Winter Bock.
 
 ## Features
